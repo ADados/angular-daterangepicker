@@ -5,6 +5,8 @@
 
   picker.constant('dateRangePickerConfig', {
     clearLabel: 'Clear',
+      timePicker: true,
+      timePickerIncrement: 30,
     locale: {
       separator: ' - ',
       format: 'YYYY-MM-DD'
